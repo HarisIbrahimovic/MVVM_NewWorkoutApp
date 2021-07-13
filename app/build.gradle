@@ -43,13 +43,7 @@ dependencies {
     // optional - RxJava support for Room
     implementation "androidx.room:room-rxjava2:2.2.5"
 
-    // optional - Guava support for Room, including Optional and ListenableFuture
 
-
-    // optional - Test helpers
-
-    // NOTE: Do not place your application dependencies here; they belong
-    // in the individual module build.gradle files
     implementation "android.arch.persistence.room:compiler:1.1.1"
     androidTestImplementation "androidx.room:room-testing:2.2.5"
     //viewModel
