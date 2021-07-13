@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bench Press"
+        android:textSize="25sp"
+        android:layout_marginLeft="20sp"
+        android:textColor="#878686"
+        android:id="@+id/exNameItem"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:textColor="#BCB9B9"
+        android:textSize="30sp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/exSetsItem"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" x "
+        android:textColor="#BCB9B9"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12"
+        android:textColor="#BCB9B9"
+        android:textSize="30sp"
+        android:id="@+id/exRepsItem"
+        />
+
+
+
+
+</LinearLayout>

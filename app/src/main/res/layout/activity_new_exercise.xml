@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_design"
+    android:orientation="vertical"
+    tools:context=".view.NewExerciseActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New exercise"
+        android:textSize="35sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#787575"
+        />
+    <EditText
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#CCCCCC"
+        android:hint="Name"
+        android:textColor="@color/white"
+        android:id="@+id/exName"
+        />
+    <EditText
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#CCCCCC"
+        android:hint="Sets"
+        android:textColor="@color/white"
+        android:inputType="number"
+        android:id="@+id/exSets"
+        />
+    <EditText
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#CCCCCC"
+        android:hint="Weight"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:id="@+id/exWeight"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:background="@drawable/button_des"
+        android:textColor="#B1B0B0"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/addEx"
+        />
+
+
+
+</LinearLayout>
